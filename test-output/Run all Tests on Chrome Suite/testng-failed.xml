@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Run all Tests on Chrome Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser_value" value="chrome"/>
+  <test thread-count="5" name="openBrowser(failed)">
+    <classes>
+      <class name="pageClasses.BookHotel">
+        <parameter name="destination_place" value="Manali"/>
+        <methods>
+          <include name="goToHotels"/>
+          <include name="closeBrowser"/>
+          <include name="setBrowser"/>
+        </methods>
+      </class> <!-- pageClasses.BookHotel -->
+      <class name="pageClasses.BuyGiftCard">
+        <parameter name="email_id" value="abc.gmail.co"/>
+        <parameter name="name" value="Sayon Islam"/>
+        <parameter name="mobile_number" value="9876543210"/>
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="setBrowser"/>
+          <include name="InputGiftData"/>
+          <include name="SelectBirthdayGift"/>
+          <include name="SelectGift"/>
+        </methods>
+      </class> <!-- pageClasses.BuyGiftCard -->
+      <class name="baseClasses.BaseClass">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="setBrowser"/>
+          <include name="openMMT"/>
+          <include name="closePopUp"/>
+        </methods>
+      </class> <!-- baseClasses.BaseClass -->
+      <class name="pageClasses.BookCab">
+        <parameter name="Destination" value="Manali"/>
+        <parameter name="Location" value="Delhi"/>
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="setBrowser"/>
+          <include name="setInput"/>
+        </methods>
+      </class> <!-- pageClasses.BookCab -->
+      <class name="pageClasses.SelectCar">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="setBrowser"/>
+          <include name="selectSuvCar"/>
+        </methods>
+      </class> <!-- pageClasses.SelectCar -->
+    </classes>
+  </test> <!-- openBrowser(failed) -->
+</suite> <!-- Failed suite [Run all Tests on Chrome Suite] -->

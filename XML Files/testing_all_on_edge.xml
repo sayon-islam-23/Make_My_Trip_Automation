@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Run all Tests on Edge Suite">
+	<parameter name="browser_value" value="edge" />
+	<test name="openBrowser">
+		<classes>
+			<class name="baseClasses.BaseClass">
+				<methods>
+					<include name="openMMT" />
+					<include name="closePopUp" />
+				</methods>
+			</class>
+			<class name="pageClasses.BookCab">
+				<methods>
+					<parameter name="Location" value="Delhi" />
+					<parameter name="Destination" value="Manali" />
+					<include name="setInput" />
+				</methods>
+			</class>
+			<class name="pageClasses.SelectCar">
+				<methods>
+					<include name="selectSuvCar" />
+				</methods>
+			</class>
+			<class name="pageClasses.BuyGiftCard">
+				<methods>
+					<include name="SelectGift" />
+					<include name="SelectBirthdayGift" />
+					<parameter name="name" value="Sayon Islam" />
+					<parameter name="mobile_number" value="9876543210" />
+					<parameter name="email_id" value="abc.gmail.co" />
+					<include name="InputGiftData" />
+				</methods>
+			</class>
+			<class name="pageClasses.BookHotel">
+				<methods>
+					<parameter name="destination_place" value="Manali" />
+					<include name="goToHotels" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 

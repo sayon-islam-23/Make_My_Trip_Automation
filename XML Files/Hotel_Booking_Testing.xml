@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Hotel Booking Test Suite">
+	<test name="openChromeBrowser">
+		<parameter name="browser_value" value="chrome" />
+		<classes>
+			<class name="baseClasses.BaseClass">
+				<methods>
+					<include name="openMMT" />
+					<include name="closePopUp" />
+				</methods>
+			</class>
+			<class name="pageClasses.BookHotel">
+				<methods>
+					<parameter name="destination_place" value="Manali" />
+					<include name="goToHotels" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<parameter name="browser_value" value="edge" />
+	<test name="openEdgeBrowser">
+		<classes>
+			<class name="baseClasses.BaseClass">
+				<methods>
+					<include name="openMMT" />
+					<include name="closePopUp" />
+				</methods>
+			</class>
+			<class name="pageClasses.BookHotel">
+				<methods>
+					<parameter name="destination_place" value="Manali" />
+					<include name="goToHotels" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 

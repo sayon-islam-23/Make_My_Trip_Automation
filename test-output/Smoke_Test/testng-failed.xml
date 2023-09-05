@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke_Test]" guice-stage="DEVELOPMENT">
+  <parameter name="browser_value" value="edge"/>
+  <test thread-count="5" name="Smoke Testing : Edge(failed)">
+    <classes>
+      <class name="myPackage.OpenGifts">
+        <parameter name="email_id" value="abc.gmail.co"/>
+        <parameter name="name" value="John Hopkins"/>
+        <parameter name="mobile_number" value="9876543210"/>
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="SelectBirthdayGift"/>
+          <include name="SelectGift"/>
+          <include name="setBrowser"/>
+          <include name="InputGiftData"/>
+        </methods>
+      </class> <!-- myPackage.OpenGifts -->
+      <class name="myPackage.SelectCar">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="setBrowser"/>
+          <include name="selectSuvCar"/>
+        </methods>
+      </class> <!-- myPackage.SelectCar -->
+      <class name="myPackage.Enter_Data">
+        <parameter name="Destination" value="Manali"/>
+        <parameter name="Location" value="Delhi"/>
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="setBrowser"/>
+          <include name="setInput"/>
+        </methods>
+      </class> <!-- myPackage.Enter_Data -->
+      <class name="myPackage.openBrowser">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openMMT"/>
+          <include name="closePopUp"/>
+          <include name="setBrowser"/>
+        </methods>
+      </class> <!-- myPackage.openBrowser -->
+      <class name="myPackage.BookHotel">
+        <parameter name="destination_place" value="Manali"/>
+        <methods>
+          <include name="goToHotels"/>
+          <include name="closeBrowser"/>
+          <include name="setBrowser"/>
+        </methods>
+      </class> <!-- myPackage.BookHotel -->
+    </classes>
+  </test> <!-- Smoke Testing : Edge(failed) -->
+</suite> <!-- Failed suite [Smoke_Test] -->

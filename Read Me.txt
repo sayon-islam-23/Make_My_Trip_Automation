@@ -1,0 +1,79 @@
+HACKATHON PROJECT TOPIC: Book one way outstation cab and display the lowest charges
+
+
+CONTENTS OF THE FILE
+---------------------
+1. Team Members
+2. Introduction
+3. Project Description
+4. Pre-requisites
+5. Tools Used
+6. Procedure for accessing
+
+Team Members:
+--------------
+Sayon Islam                  - 2282142
+Arpan Saha          	     - 2282189
+Rajdeep Saha                 - 2282048 
+Sudip Kundu                  - 2282028
+Koustav Sarkar               - 2282152
+
+Introduction:
+-------------
+The main objective of the project is to navigate to Make-My-Trip Website, enter the pickup location, destination, journey date, return date, time and book the SUV cab which shows the lowest fare. After that book a giftcard and give input an invalid email address and capture the error message. And at the end book a hotel in a particular location.
+
+
+Project Description:
+--------------------
+
+1.First navigating Make-My-Trip Website.
+2.Provide the pickup location, destination, journey date, return date, timings and other additional informations.
+3.Search available cab, then click on SUV and select the car showing minimum fare.
+4.Navigate to the Giftcard section, select a gift item and provide a wrong email address to capture the error message.
+5.Navigate to the Hotel Section and, provide necessary informations to book a hotel. Capture the number of adults list available in the adults section.
+6.Navigate back to the Make-My-Trip Home page.
+7.close the browser.
+
+
+Pre-requisites:
+----------------
+- https://www.makemytrip.com/
+
+
+Technology/Automation & Tools Used:
+------------------------
+- Selenium Web Driver  4.11.0
+- WebDriverManager     5.4.1
+- TestNG               7.8.0
+- Java                 17.0.8
+- POM 
+- HTML Extent Report   3.1.5
+- Data Driven Concept
+- MAVEN				   3.8.1
+- Property File concept
+
+
+Procedure for accessing:
+------------------------
+1.First navigating Make-My-Trip Website.
+2.Provide the pickup location, destination, journey date, return date, timings and other additional informations.
+3.Search available cab, then click on SUV and select the car showing minimum fare.
+4.Navigate to the Giftcard section, select a gift item and provide a wrong email address to capture the error message.
+5.Navigate to the Hotel Section and, provide necessary informations to book a hotel. Capture the number of adults list available in the adults section.
+6.Navigate back to the Make-My-Trip Home page.
+7.close the browser.
+
+
+To Run the Project:
+-------------------
+ Run the program file using TestNG.
+
+
+Report:
+--------
+To access the Report generated, reach the path of folder : \Make_My_Trip\Outputs
+1.HTML Report -  /FeatureNews/Outputs/extent-report.html
+-HTML Report URL- <- put your local extent-report url ->
+
+
+

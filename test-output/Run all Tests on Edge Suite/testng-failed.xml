@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Run all Tests on Edge Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser_value" value="edge"/>
+  <test thread-count="5" name="openBrowser(failed)">
+    <classes>
+      <class name="pageClasses.BuyGiftCard">
+        <parameter name="email_id" value="abc.gmail.co"/>
+        <parameter name="name" value="Sayon Islam"/>
+        <parameter name="mobile_number" value="9876543210"/>
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="setBrowser"/>
+          <include name="SelectGift"/>
+        </methods>
+      </class> <!-- pageClasses.BuyGiftCard -->
+      <class name="baseClasses.BaseClass">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="setBrowser"/>
+          <include name="closePopUp"/>
+        </methods>
+      </class> <!-- baseClasses.BaseClass -->
+      <class name="pageClasses.SelectCar">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="setBrowser"/>
+          <include name="selectSuvCar"/>
+        </methods>
+      </class> <!-- pageClasses.SelectCar -->
+    </classes>
+  </test> <!-- openBrowser(failed) -->
+</suite> <!-- Failed suite [Run all Tests on Edge Suite] -->

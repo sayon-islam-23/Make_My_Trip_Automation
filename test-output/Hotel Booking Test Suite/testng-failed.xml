@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Hotel Booking Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser_value" value="edge"/>
+  <test thread-count="5" name="openEdgeBrowser(failed)">
+    <classes>
+      <class name="myPackage.BookHotel">
+        <parameter name="destination_place" value="Manali"/>
+        <methods>
+          <include name="goToHotels"/>
+          <include name="closeBrowser"/>
+          <include name="setBrowser"/>
+        </methods>
+      </class> <!-- myPackage.BookHotel -->
+      <class name="myPackage.openBrowser">
+        <methods>
+          <include name="openMMT"/>
+          <include name="closeBrowser"/>
+          <include name="closePopUp"/>
+          <include name="setBrowser"/>
+        </methods>
+      </class> <!-- myPackage.openBrowser -->
+    </classes>
+  </test> <!-- openEdgeBrowser(failed) -->
+</suite> <!-- Failed suite [Hotel Booking Test Suite] -->

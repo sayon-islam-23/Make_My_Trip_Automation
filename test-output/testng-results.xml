@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-05T10:40:31 IST" name="Run all Tests on Chrome Suite" finished-at="2023-09-05T10:43:45 IST" duration-ms="193623">
+    <groups>
+    </groups>
+    <test started-at="2023-09-05T10:40:31 IST" name="openBrowser" finished-at="2023-09-05T10:43:45 IST" duration-ms="193623">
+      <class name="baseClasses.BaseClass">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:baseClasses.BaseClass@21aa6d6c]" started-at="2023-09-05T10:40:31 IST" name="setBrowser" finished-at="2023-09-05T10:40:45 IST" duration-ms="14145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="openMMT()[pri:0, instance:baseClasses.BaseClass@21aa6d6c]" started-at="2023-09-05T10:40:45 IST" name="openMMT" finished-at="2023-09-05T10:40:58 IST" duration-ms="12719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openMMT -->
+        <test-method signature="closePopUp()[pri:0, instance:baseClasses.BaseClass@21aa6d6c]" started-at="2023-09-05T10:40:58 IST" name="closePopUp" finished-at="2023-09-05T10:41:10 IST" duration-ms="11911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePopUp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:baseClasses.BaseClass@21aa6d6c]" started-at="2023-09-05T10:43:42 IST" name="closeBrowser" finished-at="2023-09-05T10:43:45 IST" duration-ms="2631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- baseClasses.BaseClass -->
+      <class name="pageClasses.SelectCar">
+        <test-method signature="selectSuvCar()[pri:0, instance:pageClasses.SelectCar@350ec41e]" started-at="2023-09-05T10:42:01 IST" name="selectSuvCar" finished-at="2023-09-05T10:42:11 IST" duration-ms="9815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSuvCar -->
+      </class> <!-- pageClasses.SelectCar -->
+      <class name="pageClasses.BookCab">
+        <test-method signature="setInput(java.lang.String,java.lang.String)[pri:0, instance:pageClasses.BookCab@2756c0a7]" started-at="2023-09-05T10:41:10 IST" name="setInput" finished-at="2023-09-05T10:42:01 IST" duration-ms="51449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Manali]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setInput -->
+      </class> <!-- pageClasses.BookCab -->
+      <class name="pageClasses.BuyGiftCard">
+        <test-method signature="SelectGift()[pri:0, instance:pageClasses.BuyGiftCard@69637b10]" started-at="2023-09-05T10:42:11 IST" name="SelectGift" finished-at="2023-09-05T10:42:18 IST" duration-ms="6485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectGift -->
+        <test-method signature="SelectBirthdayGift()[pri:0, instance:pageClasses.BuyGiftCard@69637b10]" started-at="2023-09-05T10:42:18 IST" name="SelectBirthdayGift" finished-at="2023-09-05T10:42:25 IST" duration-ms="6790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBirthdayGift -->
+        <test-method signature="InputGiftData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageClasses.BuyGiftCard@69637b10]" started-at="2023-09-05T10:42:25 IST" name="InputGiftData" finished-at="2023-09-05T10:42:44 IST" duration-ms="19226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sayon Islam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc.gmail.co]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InputGiftData -->
+      </class> <!-- pageClasses.BuyGiftCard -->
+      <class name="pageClasses.BookHotel">
+        <test-method signature="goToHotels(java.lang.String)[pri:0, instance:pageClasses.BookHotel@71984c3]" started-at="2023-09-05T10:42:44 IST" name="goToHotels" finished-at="2023-09-05T10:43:42 IST" duration-ms="58257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manali]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHotels -->
+      </class> <!-- pageClasses.BookHotel -->
+    </test> <!-- openBrowser -->
+  </suite> <!-- Run all Tests on Chrome Suite -->
+  <suite started-at="2023-09-05T10:43:45 IST" name="Run all Tests on Edge Suite" finished-at="2023-09-05T10:46:33 IST" duration-ms="167805">
+    <groups>
+    </groups>
+    <test started-at="2023-09-05T10:43:45 IST" name="openBrowser" finished-at="2023-09-05T10:46:33 IST" duration-ms="167805">
+      <class name="baseClasses.BaseClass">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:baseClasses.BaseClass@46f699d5]" started-at="2023-09-05T10:43:45 IST" name="setBrowser" finished-at="2023-09-05T10:43:52 IST" duration-ms="7646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="openMMT()[pri:0, instance:baseClasses.BaseClass@46f699d5]" started-at="2023-09-05T10:43:52 IST" name="openMMT" finished-at="2023-09-05T10:43:57 IST" duration-ms="4883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openMMT -->
+        <test-method signature="closePopUp()[pri:0, instance:baseClasses.BaseClass@46f699d5]" started-at="2023-09-05T10:43:57 IST" name="closePopUp" finished-at="2023-09-05T10:44:15 IST" duration-ms="17260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePopUp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:baseClasses.BaseClass@46f699d5]" started-at="2023-09-05T10:46:30 IST" name="closeBrowser" finished-at="2023-09-05T10:46:33 IST" duration-ms="2412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- baseClasses.BaseClass -->
+      <class name="pageClasses.SelectCar">
+        <test-method signature="selectSuvCar()[pri:0, instance:pageClasses.SelectCar@1991f767]" started-at="2023-09-05T10:44:56 IST" name="selectSuvCar" finished-at="2023-09-05T10:45:06 IST" duration-ms="9764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSuvCar -->
+      </class> <!-- pageClasses.SelectCar -->
+      <class name="pageClasses.BookCab">
+        <test-method signature="setInput(java.lang.String,java.lang.String)[pri:0, instance:pageClasses.BookCab@18518ccf]" started-at="2023-09-05T10:44:15 IST" name="setInput" finished-at="2023-09-05T10:44:56 IST" duration-ms="41433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Manali]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setInput -->
+      </class> <!-- pageClasses.BookCab -->
+      <class name="pageClasses.BuyGiftCard">
+        <test-method signature="SelectGift()[pri:0, instance:pageClasses.BuyGiftCard@768ccdc5]" started-at="2023-09-05T10:45:06 IST" name="SelectGift" finished-at="2023-09-05T10:45:13 IST" duration-ms="6807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectGift -->
+        <test-method signature="SelectBirthdayGift()[pri:0, instance:pageClasses.BuyGiftCard@768ccdc5]" started-at="2023-09-05T10:45:13 IST" name="SelectBirthdayGift" finished-at="2023-09-05T10:45:17 IST" duration-ms="4752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBirthdayGift -->
+        <test-method signature="InputGiftData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageClasses.BuyGiftCard@768ccdc5]" started-at="2023-09-05T10:45:17 IST" name="InputGiftData" finished-at="2023-09-05T10:45:35 IST" duration-ms="17869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sayon Islam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc.gmail.co]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InputGiftData -->
+      </class> <!-- pageClasses.BuyGiftCard -->
+      <class name="pageClasses.BookHotel">
+        <test-method signature="goToHotels(java.lang.String)[pri:0, instance:pageClasses.BookHotel@4c6daf0]" started-at="2023-09-05T10:45:35 IST" name="goToHotels" finished-at="2023-09-05T10:46:30 IST" duration-ms="54948" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manali]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHotels -->
+      </class> <!-- pageClasses.BookHotel -->
+    </test> <!-- openBrowser -->
+  </suite> <!-- Run all Tests on Edge Suite -->
+  <suite started-at="2023-09-05T10:46:33 IST" name="MakeMyTrip Generic Suite" finished-at="2023-09-05T10:46:33 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- MakeMyTrip Generic Suite -->
+</testng-results>
